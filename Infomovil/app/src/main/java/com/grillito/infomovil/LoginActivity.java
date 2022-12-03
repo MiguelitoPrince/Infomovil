@@ -12,6 +12,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
     }
     public void goCreateAccount(View view){
             Intent intent = new Intent(this,CreateAccountActivity.class);
